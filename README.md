@@ -1,8 +1,6 @@
 # Machine Readable Datasheets as a Firmware Contract for Automated MCU, MPU, CPU, and Accelerator Programming
 
-Richard Haberkern 
-Future Electronics
-richard.haberkern@futureelectronics.com
+Proposed by Richard Haberkern 
 
 ## Abstract
 
