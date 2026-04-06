@@ -1,4 +1,4 @@
-# Machine Readable Datasheets as a Firmware Contract for Automated MCU, MPU, CPU, and Accelerator Programming
+# Machine Readable Datasheets as a Firmware Contract for Automated Integration of Sensors, Wireless, and Embedded Hardware
 
 Proposed by Richard Haberkern 
 
