@@ -1,4 +1,4 @@
-# Machine Readable Datasheets as a Firmware Contract for Automated Integration of Sensors, Wireless, and Embedded Hardware
+# Machine Readable Datasheets as a Firmware Contract for Automated Integration of Sensors, Wireless, MCUs, MPUs and Embedded Hardware
 
 Proposed by Richard Haberkern 
 rmhaberkern@gmail.com
