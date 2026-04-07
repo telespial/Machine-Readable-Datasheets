@@ -1,8 +1,8 @@
 # Machine Readable Datasheets as a Firmware Contract for Automated Integration of Sensors, Wireless, MCUs, MPUs and Embedded Hardware
 
 Proposed by Richard Haberkern 
-
 rmhaberkern@gmail.com
+
 Free for evaluation. Commercial use requires permission. See license.md for more informtion.
 
 ## Abstract
