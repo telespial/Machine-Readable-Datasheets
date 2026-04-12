@@ -49,7 +49,7 @@ MRD establishes a reusable hardware contract so that generators and reviewers ar
 * [EmbeddedX-Specs](https://github.com/telespial/EmbeddedX-Specs) establishes the umbrella platform
 * [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs) establishes model truth
 * [Embedded-Intelligence-Layer-Specs](https://github.com/telespial/Embedded-Intelligence-Layer-Specs) establishes runtime intelligence boundaries
-* [AI-Coding-Specification](https://github.com/telespial/AI-Coding-Specification) should not generate code that contradicts MRD
+* [AI-Integrated-Coding-System-Spec](https://github.com/telespial/AI-Integrated-Coding-System-Spec) should not generate code that contradicts MRD
 * [Embedded-Intelligence-Package-Specs](https://github.com/telespial/Embedded-Intelligence-Package-Specs) may package deployable artifacts that assume MRD-aligned integration
 
 * * *
