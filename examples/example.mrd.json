@@ -1,0 +1,18 @@
+{
+  "device": "ExampleMCU123",
+  "pins": [
+    {
+      "name": "PA10",
+      "functions": [
+        "GPIO",
+        "I2C_SDA"
+      ]
+    }
+  ],
+  "registers": [
+    {
+      "name": "GPIOA_MODER",
+      "address": "0x40020000"
+    }
+  ]
+}
