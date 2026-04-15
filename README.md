@@ -13,9 +13,19 @@ Part of the [EmbeddedX platform](https://github.com/telespial/EmbeddedX-Specs).
 
 ## Abstract
 
-Machine Readable Datasheet (MRD) establishes a machine-readable hardware contract for firmware-visible device behavior. It is intended to capture the information engineers repeatedly need from datasheets, programming manuals, and errata in a form that can be reused by documentation systems, firmware generators, validators, and engineers.
+Machine Readable Datasheet (MRD) captures the firmware-visible information engineers repeatedly need from datasheets, programming manuals, and errata.
 
-MRD focuses on firmware-relevant truth: pins, pad functions, registers, fields, interfaces, constraints, conflicts, and errata. The goal is not to replace a vendor datasheet. The goal is to extract the operational meaning that software systems actually depend on.
+MRD does not replace a vendor datasheet. It extracts the parts of the datasheet that software systems, validators, code generators, and engineers need in a structured form.
+
+MRD focuses on practical hardware details:
+
+* pins and pads
+* pin functions
+* registers and fields
+* interfaces
+* clocks, resets, interrupts, and DMA
+* constraints and conflicts
+* errata and workarounds
 
 * * *
 
@@ -38,29 +48,29 @@ MRD may describe:
 
 ## 2. Why MRD Matters
 
-Hardware truth is scattered. Engineers jump between PDFs, code examples, app notes, and errata just to understand what firmware is allowed to do.
+Hardware rules are scattered across PDFs, code examples, app notes, and errata. Engineers often have to jump between all of them just to understand what firmware is allowed to do.
 
-MRD establishes a reusable hardware contract so that generators and reviewers are not forced to rediscover the same rules every time.
+MRD gives those rules a reusable structure so that tools and reviewers do not have to rediscover the same details every time.
 
 * * *
 
 ## 3. Relationship to Other Repositories
 
-* [EmbeddedX-Specs](https://github.com/telespial/EmbeddedX-Specs) establishes the umbrella platform
-* [Machine-Readable-Connectivity-Specs](https://github.com/telespial/Machine-Readable-Connectivity-Specs) establishes what that device or pin is actually connected to in a board design
-* [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs) establishes model truth
-* [Embedded-Intelligence-Layer-Specs](https://github.com/telespial/Embedded-Intelligence-Layer-Specs) establishes runtime intelligence boundaries
-* [AI-Integrated-Coding-System-Spec](https://github.com/telespial/AI-Integrated-Coding-System-Spec) should not generate code that contradicts MRD
-* [Embedded-Intelligence-Package-Specs](https://github.com/telespial/Embedded-Intelligence-Package-Specs) may package deployable artifacts that assume MRD-aligned integration
+* [EmbeddedX-Specs](https://github.com/telespial/EmbeddedX-Specs): umbrella platform
+* [Machine-Readable-Connectivity-Specs](https://github.com/telespial/Machine-Readable-Connectivity-Specs): shows how the schematic, netlist, BOM, and board files connect the device in a real design
+* [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs): defines model inputs, outputs, and behavior
+* [Embedded-Intelligence-Layer-Specs](https://github.com/telespial/Embedded-Intelligence-Layer-Specs): defines runtime intelligence boundaries
+* [AI-Integrated-Coding-System-Spec](https://github.com/telespial/AI-Integrated-Coding-System-Spec): controls code generation and validation so generated code does not contradict MRD
+* [Embedded-Intelligence-Package-Specs](https://github.com/telespial/Embedded-Intelligence-Package-Specs): may package deployable artifacts that assume MRD-aligned integration
 
-MRD establishes what a device or pin can do.
-MRC establishes what that device or pin is actually connected to in a board design.
+MRD describes what a device or pin can do.
+MRC shows what that device or pin is connected to on the board.
 
 * * *
 
 ## 4. Core Principle
 
-If the firmware depends on it, MRD should be able to express it.
+If firmware depends on a hardware detail, MRD should be able to express it.
 
 * * *
 
