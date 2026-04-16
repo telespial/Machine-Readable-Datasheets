@@ -1,5 +1,7 @@
 # Machine Readable Datasheet (MRD)
 
+[← Back to EmbeddedX-Specs (canonical index)](https://github.com/telespial/EmbeddedX-Specs)
+
 ## Hardware Data Firmware Can Actually Use
 
 Proposed by: Richard Haberkern  
@@ -58,12 +60,6 @@ MRD establishes a reusable hardware contract so that generators and reviewers ar
 
 MRD establishes what a device or pin can do.
 MRC establishes what that device or pin is actually connected to in a board design.
-
-* * *
-
-## 4. Core Principle
-
-If the firmware depends on it, MRD should be able to express it.
 
 * * *
 
