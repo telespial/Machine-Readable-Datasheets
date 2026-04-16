@@ -5,9 +5,12 @@
 Proposed by: Richard Haberkern  
 Contact: rmhaberkern@gmail.com
 
-Free for evaluation. Commercial use requires permission. See license.md for more information.
+Free for evaluation. Commercial use requires permission. See `license.md` for more information.
 
-Part of the [EmbeddedX platform](https://github.com/telespial/EmbeddedX-Specs).
+Part of the **EmbeddedX specification family**.
+
+**Canonical index:** start at `EmbeddedX-Specs`:
+https://github.com/telespial/EmbeddedX-Specs
 
 * * *
 
@@ -44,14 +47,14 @@ MRD establishes a reusable hardware contract so that generators and reviewers ar
 
 * * *
 
-## 3. Relationship to Other Repositories
+## 3. Relationship to Other Specifications
 
-* [EmbeddedX-Specs](https://github.com/telespial/EmbeddedX-Specs) establishes the umbrella platform
-* [Machine-Readable-Connectivity-Specs](https://github.com/telespial/Machine-Readable-Connectivity-Specs) establishes what that device or pin is actually connected to in a board design
-* [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs) defines model metadata and runtime assumptions
-* [Embedded-Intelligence-Layer-Specs](https://github.com/telespial/Embedded-Intelligence-Layer-Specs) establishes runtime intelligence boundaries
-* [AI-Integrated-Coding-System-Spec](https://github.com/telespial/AI-Integrated-Coding-System-Spec) should not generate code that contradicts MRD
-* [Embedded-Intelligence-Package-Specs](https://github.com/telespial/Embedded-Intelligence-Package-Specs) may package deployable artifacts that assume MRD-aligned integration
+* **EmbeddedX (umbrella):** https://github.com/telespial/EmbeddedX-Specs
+* **MRC:** https://github.com/telespial/Machine-Readable-Connectivity-Specs
+* **MDP:** https://github.com/telespial/Model-Definition-Package-Specs
+* **EIL:** https://github.com/telespial/Embedded-Intelligence-Layer-Specs
+* **AICS:** https://github.com/telespial/AI-Coding-System-Specs
+* **EIP:** https://github.com/telespial/Embedded-Intelligence-Package-Specs
 
 MRD establishes what a device or pin can do.
 MRC establishes what that device or pin is actually connected to in a board design.
