@@ -1,6 +1,6 @@
 # Machine Readable Datasheet (MRD)
 
-## A Machine-Readable Hardware Contract for Embedded Devices, Interfaces, Constraints, and Errata
+## Hardware Data Firmware Can Actually Use
 
 Proposed by: Richard Haberkern  
 Contact: rmhaberkern@gmail.com
@@ -13,9 +13,9 @@ Part of the [EmbeddedX platform](https://github.com/telespial/EmbeddedX-Specs).
 
 ## Abstract
 
-Machine Readable Datasheet (MRD) establishes a machine-readable hardware contract for firmware-visible device behavior. It is intended to capture the information engineers repeatedly need from datasheets, programming manuals, and errata in a form that can be reused by documentation systems, firmware generators, validators, and engineers.
+Machine Readable Datasheet (MRD) defines a machine-readable format for the parts of a device description that firmware actually depends on. It pulls together the details engineers usually chase across datasheets, reference manuals, and errata, then puts them in a form that tools and reviewers can reuse.
 
-MRD focuses on firmware-relevant truth: pins, pad functions, registers, fields, interfaces, constraints, conflicts, and errata. The goal is not to replace a vendor datasheet. The goal is to extract the operational meaning that software systems actually depend on.
+MRD focuses on firmware-relevant device data: pins, pad functions, registers, fields, interfaces, constraints, conflicts, and errata. It is not trying to replace a vendor datasheet. It is trying to capture the operational details software depends on.
 
 * * *
 
@@ -38,7 +38,7 @@ MRD may describe:
 
 ## 2. Why MRD Matters
 
-Hardware truth is scattered. Engineers jump between PDFs, code examples, app notes, and errata just to understand what firmware is allowed to do.
+The data firmware needs is scattered. Engineers jump between PDFs, code examples, app notes, and errata just to confirm what a device can do and what firmware is allowed to assume.
 
 MRD establishes a reusable hardware contract so that generators and reviewers are not forced to rediscover the same rules every time.
 
@@ -48,7 +48,7 @@ MRD establishes a reusable hardware contract so that generators and reviewers ar
 
 * [EmbeddedX-Specs](https://github.com/telespial/EmbeddedX-Specs) establishes the umbrella platform
 * [Machine-Readable-Connectivity-Specs](https://github.com/telespial/Machine-Readable-Connectivity-Specs) establishes what that device or pin is actually connected to in a board design
-* [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs) establishes model truth
+* [Model-Definition-Package-Specs](https://github.com/telespial/Model-Definition-Package-Specs) defines model metadata and runtime assumptions
 * [Embedded-Intelligence-Layer-Specs](https://github.com/telespial/Embedded-Intelligence-Layer-Specs) establishes runtime intelligence boundaries
 * [AI-Integrated-Coding-System-Spec](https://github.com/telespial/AI-Integrated-Coding-System-Spec) should not generate code that contradicts MRD
 * [Embedded-Intelligence-Package-Specs](https://github.com/telespial/Embedded-Intelligence-Package-Specs) may package deployable artifacts that assume MRD-aligned integration
