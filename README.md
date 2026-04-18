@@ -7,7 +7,7 @@
 Proposed by: Richard Haberkern  
 Contact: rmhaberkern@gmail.com
 
-Free for evaluation. Commercial use requires permission. See `LICENSE.md` for more information.
+Free for evaluation. Commercial use requires permission. See [LICENSE.md](./LICENSE.md) for more information.
 
 Part of the **EmbeddedX specification family**.
 
@@ -65,4 +65,4 @@ MRC establishes what that device or pin is actually connected to in a board desi
 
 ## License
 
-See `LICENSE.md`.
+See [LICENSE.md](./LICENSE.md).
