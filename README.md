@@ -65,4 +65,4 @@ MRC establishes what that device or pin is actually connected to in a board desi
 
 ## License
 
-See [LICENSE.md](./LICENSE.md).
+See [LICENSE.md](./LICENSE.md)
