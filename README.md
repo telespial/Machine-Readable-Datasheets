@@ -2,7 +2,7 @@
 
 [← Back to EmbeddedX-Specs (canonical index)](https://github.com/telespial/EmbeddedX-Specs)
 
-## Hardware Data Firmware Can Actually Use
+## Hardware Datasheets For AI Ingestion
 
 Proposed by: Richard Haberkern  
 Contact: rmhaberkern@gmail.com
